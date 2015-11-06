@@ -5,7 +5,7 @@
 	"children":
 	[
 		{ "caption": "-" },
-			{ "caption": "Checkout", "command": "check_out", "args": {"paths":[]}},
+			{ "caption": "Checkout", "command": "svn_checkout", "args": {"paths":[]}},
 			{ "caption": "Add", "command": "svn_add", "args": {"paths":[]}},
 			{ "caption": "Update", "command": "svn_update", "args": {"paths":[]}},
 			{ "caption": "Diff", "command": "svn_diff", "args": {"paths":[]}, },
