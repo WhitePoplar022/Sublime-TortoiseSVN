@@ -126,3 +126,7 @@ class SvnAddCommand(TortoiseSvnCommand):
 class SvnBranchCommand(TortoiseSvnCommand):
     def run(self, paths=None):
         TortoiseSvnCommand.run(self, 'copy', paths)
+
+class SvnCheckoutCommand(TortoiseSvnCommand):
+    def run(self, paths=None):
+        TortoiseSvnCommand.run(self, 'checkout', paths)        
